@@ -1,4 +1,6 @@
 # Project exclude paths
 /remove_duplicates/target/
 /two_sum/target/
+/remove_element/taget/
 .idea
+.gitignore
