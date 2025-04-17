@@ -2,5 +2,6 @@
 /remove_duplicates/target/
 /two_sum/target/
 /remove_element/taget/
+/search_insert/target
 .idea
 .gitignore
