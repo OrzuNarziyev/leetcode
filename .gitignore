@@ -1,3 +1,4 @@
 # Project exclude paths
-/solutions/remove_duplicates/target/
-/solutions/two_sum/target/
+/remove_duplicates/target/
+/two_sum/target/
+.idea
