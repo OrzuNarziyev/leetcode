@@ -1,0 +1,3 @@
+# Project exclude paths
+/solutions/remove_duplicates/target/
+/solutions/two_sum/target/
