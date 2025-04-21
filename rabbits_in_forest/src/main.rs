@@ -14,5 +14,5 @@ impl Solution {
     }
 }
 fn main() {
-    let _result = Solution::counter(vec![1, 1, 2]);
+    let _result = Solution::num_rabbits(vec![1, 1, 2]);
 }
