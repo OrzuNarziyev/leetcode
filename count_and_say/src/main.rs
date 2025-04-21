@@ -17,6 +17,10 @@ pub struct Solution;
 
 impl Solution {
     pub fn count_and_say(n: i32) -> String {
+        if n == 1 {
+            return "1".to_string();
+        }
+
         let mut result = String::from("1");
         for _ in 1..n {
             let mut v: Vec<Vec<char>> = vec![];
@@ -35,8 +39,8 @@ impl Solution {
                 v.push(g)
             };
             result = "".to_string();
-            for (i, v) in v.iter().enumerate() {
-                result.push_str(&format!("{}{}", v.len(), v.iter().next().unwrap()));
+            for arr in v.iter() {
+                result.push_str(&format!("{}{}", arr.len(), arr.iter().next().unwrap()));
             }
         }
         return result;
@@ -59,6 +63,6 @@ impl Solution {
 }
 
 fn main() {
-    let result = Solution::c_and_say(5);
+    let result = Solution::count_and_say(4);
     println!("last::{}", result)
 }
